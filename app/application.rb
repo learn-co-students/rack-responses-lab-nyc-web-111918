@@ -1,5 +1,4 @@
 class Application
-  attr_accessor :now
 
   def call(env)
     resp = Rack::Response.new
